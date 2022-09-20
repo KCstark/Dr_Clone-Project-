@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e981bcda86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="MainCSS.css">
+    <link rel="icon" href="./icon.jpg">
+    <title>Dr.Clone</title>
+</head>
+<body  class="flex">
+
+    <a href="#" id="top" ><i class="fa-solid fa-angle-up"></i></a>
+
+    <div id="popUp">
+        <div>
+        <i id="myBtn" class="fa-solid fa-phone"></i>
+        <span id="conT">Have quesitons?
+        </span>       
+        </div>  
+    </div>
+      <!-- Full body -->
+      <div id="myModal" class="modal">
+      
+        <!--content -->
+        <div id="modC" class="modal_content_op">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2 style="text-align:center">Please fill the form so we can contact you. Thank You</h2>
+          </div>
+          <div class="modal-body">         
+            <br>
+            <form id="formm" action="https://formsubmit.co/kanishakc1@gmail.com" method="post">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/Project1/DrClone.html">
+                <input type="hidden" name="_autoresponse" value="Your data submitted successfully!!">
+                <input type="hidden" name="_template" value="table">
+                <!-- CAPTCHA hidden -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <div class="flex">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="  your name*" required
+                style="width:500px; background-color: #cbcaca; opacity: 0.5;height: 30px;border: none;" > 
+                <label for="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</label>
+                <input type="email" name="email" id="email" placeholder="  your email*" required
+                style="width:500px; background-color: #cbcaca; opacity: 0.5;height: 30px;border: none;" > 
+                </div>
+                <br>
+                <div class="flex">
+                <label for="phone">Phone:</label>
+                <input type="number" name="phone" id="phone" placeholder="  your phone no*" required
+                style="width:500px; background-color: #cbcaca; opacity: 0.5;height: 30px;border: none;" > 
+                <label for="sub">&nbsp;&nbsp;&nbsp;&nbsp;Subject:</label>
+                <input type="text" name="sub" id="sub" placeholder="  your subject*" required
+                style="width:500px; background-color: #cbcaca; opacity: 0.5;height: 30px;border: none;" > 
+                </div>
+                <br>
+                <div class="flex">
+                <label for="mess">Message:</label>
+                <textarea name="mess" id="mess" cols="100" rows="100" placeholder=" your message" 
+                style="width:500px; background-color: #cbcaca; opacity: 0.5;height: 100px;border: none;"></textarea><br><br>                                    
+                </div><br>
+                <button style="width:100%;" type="submit" class="btn btn-primary" id="b17">SEND</button>
+            <br>   
+        </form>
+          </div>
+          <div class="modal-footer">
+            <h3 style="text-align: center;">Thanks You for visiting us, Have a nice day!! :)</h3>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="navbar">
+        <div class="flex">
+        <div >
+            <a href="http://127.0.0.1:5500/Project1/DrClone.html"><img id="logo" src="./logo-removebg-preview.png" alt="Clone"></a>
+        </div>
+        <div class="rem">
+            <div  style="display:inline-block; vertical-align:middle;">                
+                <i class="fa-regular fa-clock" style="font-size:55px; color: red; margin: 5px 5px auto 100px;"></i>
+                <div style="display: inline-block;position: relative;bottom: 8px;padding: 4px;color: white;">
+                    Monday - Sundays<br/> 11 AM - 7 PM</div>
+            </div>
+        </div>
+        <div  class="rem">
+            <div style="display:inline-block; vertical-align:top;">
+                <i class="fa-solid fa-mobile-screen" style="font-size:55px; color: red;margin: 5px 2px;"></i>
+                <div style="display: inline-block;position: relative;bottom: 8px;padding: 4px;color: white;">
+                    +91 8123456789<br />consult@DrClone.com</div>
+            </div>
+        </div>
+        <div class="rem">
+            <div style="display:inline-block; vertical-align:top;">
+                <i class="fa-solid fa-location-dot" style="font-size:55px;color: red; margin: 5px 2px;"></i>
+                <div style="display: inline-block;padding: 4px;position: relative; bottom: 8px ; color: white;">
+                    B-214, B Tower ithum<br />Sector - 62, Noida, UP, INDIA</div>
+            </div>
+        </div>
+        </div>
+        <hr>
+        <div class="flex" >
+        <a href="http://127.0.0.1:5500/Project1/DrClone.html" class="second"
+            style="padding: 0 0 10px 0 ;border-bottom: 4px solid aqua">
+            <h3>HOME</h3>
+        </a>
+        <a href="http://127.0.0.1:5500/Project1/treatment.html" class="second">
+            <h3>TREATMENTS</h3>
+        </a>
+        <a href="http://127.0.0.1:5500/Project1/Policy.html" class="second">
+            <h3>CONFIDENTIALITY POLICY</h3>
+        </a>
+        <a href="http://127.0.0.1:5500/Project1/FAQ.html" class="second">
+            <h3>FAQ</h3>
+        </a>
+        <a href="http://127.0.0.1:5500/Project1/ContactUs.html" class="second">
+            <h3>CONTACT US</h3>
+        </a>
+        </div>
+</div>
+
+    <div class="part" id="p1">
+        <!-- <div class="parallax"></div> -->
+        <div class="topBar">
+            <div class="flex">
+            <div>
+                <a href="http://127.0.0.1:5500/Project1/DrClone.html"><img id="box" src="./logo-removebg-preview.png" alt="Clone"></a>
+            </div>
+            <div class="topItem">
+                <div style="display:inline-block; vertical-align:middle;">                
+                    <i class="fa-regular fa-clock" style="font-size:55px; color: orangered; margin: 5px 5px auto 100px;"></i>
+                    <div style="display: inline-block;position: relative;bottom: 8px;padding: 4px;color: white;">
+                        Monday - Sundays<br/> 11 AM - 7 PM</div>
+                </div>
+            </div>
+            <div class="topItem">
+                <div style="display:inline-block; vertical-align:top;">
+                    <i class="fa-solid fa-mobile-screen" style="font-size:55px; color: orangered;margin: 5px 2px;"></i>
+                    <div style="display: inline-block;position: relative;bottom: 8px;padding: 4px;color: white;">
+                        +91 8123456789<br />consult@DrClone.com</div>
+                </div>
+            </div>
+            <div class="topItem">
+                <div style="display:inline-block; vertical-align:top;">
+                    <i class="fa-solid fa-location-dot" style="font-size:55px;color: orangered;margin: 5px 2px;"></i>
+                    <div style="display: inline-block;padding: 4px;position: relative; bottom: 8px ; color: white;">
+                        B-214, B Tower ithum<br />Sector - 62, Noida, UP, INDIA</div>
+                </div>
+            </div>
+            </div>
+            <div class="flex barLinks">
+            <a href="http://127.0.0.1:5500/Project1/DrClone.html" class="second topLink"
+                style="  padding: 0 0 20px 0 ;border-bottom: 4px solid aqua">
+                <h3 class="">HOME</h3>
+            </a>
+            <a href="http://127.0.0.1:5500/Project1/treatment.html" class="second topLink">
+                <h3 class="r3l">TREATMENTS</h3>
+            </a>
+            <a href="http://127.0.0.1:5500/Project1/Policy.html" class="second topLink">
+                <h3 class="r3l">CONFIDENTIALITY POLICY</h3>
+            </a>
+            <a href="http://127.0.0.1:5500/Project1/FAQ.html" class="second topLink" >
+                <h3 class="r3l">FAQ</h3>
+            </a>
+            <a href="http://127.0.0.1:5500/Project1/ContactUs.html" class="second topLink">
+                <h3 class="r3l">CONTACT US</h3>
+            </a>
+            </div>
+        </div>
+
+        <div class="reveal">
+        <div><br><br><br>
+            <h2 style="text-shadow: 2px 2px white;text-align:center ;color:black">Now you can stay home and</h2>
+        </div><br>
+        <div >
+            <h1 style="text-shadow: 2px 2px white;text-align:center ;color:#1cd094; font-size: 60px;text-shadow: 3px;">Telephonic/<br/>Video<br />Consult our</h1>
+            <h1 style="text-shadow: 2px 2px white;text-align:center ;color:orangered; font-size: 60px;">Doctor Online</h1>
+            <hr style="text-shadow: 2px 2px white;border:2px solid aqua ;border-radius: 5px; width:1cm; margin:auto auto"> <br><br>
+            <h3 style="text-shadow: 1px 1px white;text-align: center;">Medicines will be delivered to your home!</h3>
+        </div><br><br><br>
+        <div id="formOrange" ></div><br><br>
+        <div style="text-align: center;">
+            <div style="display: inline-block;">                
+                <a   href="#formOrange"><button id="b1"><b style="text-shadow: 1px 1px black"> First Consultation Free</b></button></a>               
+            </div>
+            <div style="display: inline-block;">
+                <a href="#formOrange"><button id="b2"><b style="text-shadow: 1px 1px black"> Book Free Consultaion form below</b></button></a>
+            </div>
+        </div><br><br><br>
+        <div class="flex revealS" >
+            <div style="border:1px solid orangered ;padding: 20px; background-color: orangered;border-radius: 10px 0 0 10px;color: white;">
+                <h4>Excellence in Holistic Healing</h4>
+                <hr style="border-bottom:3px solid aqua ;border-radius: 5px; width:3cm; margin:10px 0 0 0"><br>
+                <h1>Book Free<br />Consultation NOW</h1>
+            </div>
+            <div
+                style="border:1px solid orangered ;padding: 20px; background-color: orangered;border-radius: 0 10px 10px 0;color: white;">
+                <form action="https://formsubmit.co/kanishakc1@gmail.com" method="post">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/Project1/ThankYoupage.html">
+                <input type="hidden" name="_autoresponse" value="Your data submitted successfully!!">
+                <input type="hidden" name="_template" value="table">
+                <!-- CAPTCHA hidden-> if active autoresponse dont work-->
+                <input type="hidden" name="_captcha" value="false">
+
+                    <label for="name"></label><input type="text" name="name" id="name" placeholder="Your Name*"
+                        style=" width:3in; height:1cm; opacity: 0.5; border: none;" required>
+                    <label for="Email"></label><input type="email" name="Email" id="Email" placeholder="Your Email*"
+                        style="opacity: 0.5;width:3in; height:1cm; border: none;" required>
+                    <br><br>
+                    <label for="Phone"></label><input type="number" name="Phone" id="Phone" placeholder="Your Phone No*"
+                        style=" width:3in; height:1cm; opacity: 0.5; border: none;" required>
+                    <label for="Date"></label><input type="date" name="DOB" id="Date" placeholder="mm/dd/yy*"
+                        style="opacity: 0.5;width:3in; height:1cm; border: none;" required><br><br><br>
+                    <button id="b11" type="submit" formtarget="">Book Now</button>
+                </form>
+            </div>
+        </div>
+        <br><br><br><br>
+    </div>
+</div>
+    <div id="p2">
+        <div class="flex " style="margin: 0px 13%; position: relative; top:-20px ;color: white; background-color: rgb(6, 187, 133);font-size: 14px; ">
+            <div class="r3"  style="padding: 10px 5px">
+                <h2>Benefits of Homeopathy</h2>
+                <hr style="border-bottom:2px solid orangered ;border-radius: 5px; width:2cm; margin:10px 0 0 0"><br>
+                <ul>
+                    <li>Boosts Immunity</li>
+                    <li>Natural, Safe & Effective</li>
+                    <li>No Side Effects</li>
+                    <li>Holistic Approach to Treatment</li>
+                    <li>Treat the root cause of the problem</li>
+                    <li>Addresses emotional concerns<br/> like Stress & Anxiety</li>
+                    <li>Provides Symptomatic Relief</li>
+                    <li>Decreases Tendency & Frequency of Recurrence</li>
+                    <li>Cost Effective</li>
+                    <li>Safe for All Ages & Groups</li>
+                </ul>
+            </div>
+            <div class="revealS"  style=" border-left: 2px solid rgb(17, 240, 174); padding: 10px 5px">
+                <h2>Why Dr CLONEEE’s</h2>
+                <hr style="border-bottom:2px solid orangered ;border-radius: 5px; width:2cm; margin:10px 0 0 0"><br>
+                <ul>
+                    <li>Ex Dr CLONEEE Positive Health Clinic Noida’s <br/>Senior Consultant (15 years in Dr CLONEEE)</li>
+                    <li>Over 17 years of Experience in treating 100+<br/> kinds of diseases</li>
+                    <li>Experience in Diagnosis & Treatment</li>
+                    <li>BHMS from Nation’s Top Notch National Institute <br/>of Homeopathy, Govt of India, Kolkata and has<br/> been a positioner of the Institute</li>
+                    <li>Over 91% Success Rate</li>
+                    <li>Blister packaging of medicines that is <br/>untouched by hand, contamination-free<br/> and ensures correct dosage</li>                    
+                </ul>
+            </div>
+            <div class="r3"  style=" border-left: 2px solid rgb(17, 240, 174);padding: 10px 5px">
+                <h2>3 Step Consultation<br /> with Dr CLONEEE’s</h2>
+                <hr style="border-bottom:2px solid orangered ;border-radius: 5px; width:2cm; margin:10px 0 0 0"><br>
+                <ul>
+                    <li>A 20 to 30 Minutes Telephonic/Video(depending<br/> uponthe requirement) Consultation with Dr CLONEEE <br/>to understand and evaluate the root<br/> cause of the health problem</li>
+                    <li>A customized treatment plan combining <br/>Homeopathic Medicines and International <br/>Treatments for long-lasting results</li>
+                    <li>Home Delivery of the Medicines</li>                    
+                </ul>                
+            </div> 
+        </div>
+            <br>                          
+        </div>
+        <div>
+            <br><br><br>         
+        </div> 
+        <div class=" part" id="p3">
+                <div class="revealS" align="center"><br><br>
+                    <h3>Wide range of medical services</h3><br>
+                    <h1 style="color:red">100+ Ailments Treated</h1>
+                    <p style="border-bottom:3px solid green; width:1cm; margin:auto auto"></p>
+                    <br>
+                    <p style="width: 70%">Homeopathy is known for its safe and gentle ways of treatment. People across
+                        the world prefer homeopathy over conventional medicine, as it has no side-effects, and is
+                        non-toxic and non-addictive. Homeopathic medicine acts by stimulating your body’s natural
+                        healing power through your immune system and nerves. It is known to cure various types of
+                        chronic and acute ailments. It is suitable for all age groups, from infants to the elderly. All
+                        homeopathic medicines are safe. Furthermore, homeopathic remedies are not known to interfere
+                        with conventional medicine or any other medicine.</p>
+                </div><br><br>
+                <div class="flex">
+                <div class=" flex ">
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="./round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="./round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="./round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="./round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="./round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                </div>                   
+                </div> <br><br>
+                <div class=" flex ">
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                </div>
+                    <br><br>
+                <div class=" flex ">
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <img class="portrait" src="round.png"
+                                alt="irm"><br>
+                            <button type="submit" id="b33" formtarget="">ItemName</button>
+                        </form>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+            <div class="flex" id="p4">
+
+                <div class="r3"><br><br>
+                    <h3>Dr CLONEEE CLONE</h3><br>
+                    <h1 style="display: inline;">OUR </h1>
+                    <h1 style="color: orangered; display: inline;">Doctor</h1>
+                    <hr style="border-bottom:4px solid aqua ;border-radius: 5px; width:1cm; "> <br>
+                    <h4 style="font-weight: 1; height: 7cm; font-size: large;">Dr CLONEEe has done BHMS from Nation’s Top Notch<br />
+                        National Institute of Homeopathy, Govt of India, Kolkata<br /> and has been a positioner of the
+                        Institute. She <br />has over 17 years of Experience in treating <br />100+ kinds of diseases.
+                        Dr CLONEEE is Ex Dr CLONE<br /> Positive Health Clinic Noida’s Senior Consultant<br /> (15
+                        years in Dr Batra’s). Dr CLONEEE is dedicated in <br />providing her patients with the best
+                        <br />possible care with a personal drive. She has<br /> carved a niche in her field and aims
+                        at<br /> healing and improving the health status of individuals.</h4>
+                </div>
+                <div class="r2">
+                    <img style="margin: 1.5cm; width: 30rem ;height:5in "src="./img.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="part" id="p5">
+                <div class="flex">
+                    <p>&reg; DR.Clone </p>                    
+                </div>
+                
+            </div>
+
+            <div class="part" id="p6">
+                <br>
+                <div class="flex">
+                    <div>
+                        <p><a href="#"><img id="box" src="logo-removebg-preview.png" alt=""></a></p>
+                        <br><hr>
+                        <h2 style="color: white">Contact Us</h2>
+                        <hr style="border-bottom:3px solid orangered ;border-radius: 5px; width:1cm;color:white;position:  relative;left:15% ">
+                        <br>
+                        <p style="font-size: 14px; color: white;">Working Hours:<br /> Monday – Sundays 11 AM – 7
+                            PM<br />
+                            Mobile: +91 81234567789<br />
+                            Email : consult@DrClone.com<br />
+                            <br>
+                            B-214, B Tower ithum<br />
+                            Sector - 62, Noida, UP, INDIA
+                        </p>
+                    </div>
+                </div><br>                
+            </div>
+            <div class="flex last">
+                <p style="display: inline-block; text-align: left; font-size: 12px ; color: white;">@ All rights
+                    reserved. Dr CLONEEE's MediCare Homeopathy Services</p>
+                <a href="#" class="in" style="margin: 0px 10px 0 35%">
+                    <h3>Home</h3>
+                </a>
+                <a href="#" class="in">
+                    <h3>Treatments</h3>
+                </a>
+                <a href="#" class="in">
+                    <h3>Confidentiality Policcy</h3>
+                </a>
+                <a href="#" class="in">
+                    <h3>Faq</h3>
+                </a>
+                <a href="#" class="in">
+                    <h3>CONTACT US</h3>
+                </a>
+            </div>
+            <!-- <br><br><br><br><br><br>
+        <p name="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit perspiciatis ratione amet laboriosam ex quos qui eos, provident inventore tenetur fuga voluptas rem nostrum obcaecati consequuntur! Nemo a voluptatum vel saepe. Nostrum et laboriosam corrupti, a explicabo sapiente numquam aliquam at corporis facilis ipsa! Quibusdam odio officia reprehenderit facere mollitia quasi iste at sint deserunt, officiis excepturi, illum ipsam aperiam inventore. Perferendis atque incidunt a nostrum, ab quisquam dolore aperiam facere non modi sed ipsum libero ex alias illum praesentium deleniti explicabo eos reprehenderit doloremque cum debitis. Nostrum maiores excepturi molestiae porro aspernatur vitae laudantium voluptas unde. Odit, fugit. Aliquam!</p> -->
+</body>
+    <script src="./MainJS.js"></script>
+</html>

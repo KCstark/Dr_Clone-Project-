@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e981bcda86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="MainCSS.css">
+    <link rel="icon" href="./icon.jpg">
+    <title>Dr.Clone</title>
+</head>
+<body>
+    <a href="#" id="top" ><i class="fa-solid fa-angle-up"></i></a>
+
+    <div id="popUp">
+        <div>
+        <i id="myBtn" class="fa-solid fa-phone"></i>
+        <span id="conT">Have quesitons?
+        </span>       
+        </div>  
+    </div>
+      <!-- Full body -->
+      <div id="myModal" class="modal">
+      
+        <!--content -->
+        <div id="modC" class="modal_content_op">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2 style="text-align:center">Please fill the form so we can contact you. Thank You</h2>
+          </div>
+          <div class="modal-body">         
+            <br>
+            <form id="formm" action="https://formsubmit.co/kanishakc1@gmail.com" method="post">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/Project1/DrClone.html">
+                <input type="hidden" name="_autoresponse" value="Your data submitted successfully!!">
+                <input type="hidden" name="_template" value="table">
+                <!-- CAPTCHA hidden -->
+                <input type="hidden" name="_captcha" value="false">
+                
+                <div class="flex">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="  your name*" required
+                style="width:500px; background-color: #cbcaca; opacity: 0.5;height: 30px;border: none;" > 
+                <label for="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</label>
+                <input type="email" name="email" id="email" placeholder="  your email*" required
+                style="width:500px; background-color: #cbcaca; opacity: 0.5;height: 30px;border: none;" > 
+                </div>
+                <br>
+                <div class="flex">
+                <label for="phone">Phone:</label>
+                <input type="number" name="phone" id="phone" placeholder="  your phone no*" required
+                style="width:500px; background-color: #cbcaca; opacity: 0.5;height: 30px;border: none;" > 
+                <label for="sub">&nbsp;&nbsp;&nbsp;&nbsp;Subject:</label>
+                <input type="text" name="sub" id="sub" placeholder="  your subject*" required
+                style="width:500px; background-color: #cbcaca; opacity: 0.5;height: 30px;border: none;" > 
+                </div>
+                <br>
+                <div class="flex">
+                <label for="mess">Message:</label>
+                <textarea name="mess" id="mess" cols="100" rows="100" placeholder=" your message" 
+                style="width:500px; background-color: #cbcaca; opacity: 0.5;height: 100px;border: none;"></textarea><br><br>                                    
+                </div><br>
+                <button style="width:100%;" type="submit" class="btn btn-primary" id="b17">SEND</button>
+            <br>   
+        </form>
+          </div>
+          <div class="modal-footer">
+            <h3 style="text-align: center;">Thanks You for visiting us, Have a nice day!! :)</h3>
+          </div>
+        </div>
+      </div>
+      
+    <div class="part" id="p1">
+        <!-- <div class="parallax"></div> -->
+        <div class="topBar">
+            <div class="flex">
+            <div >
+                <a href="http://127.0.0.1:5500/Project1/DrClone.html"><img id="box" src="./logo-removebg-preview.png" alt="Clone"></a>
+            </div>
+            <div class="topItem">
+                <div style="display:inline-block; vertical-align:middle;">                
+                    <i class="fa-regular fa-clock" style="font-size:55px; color: orangered; margin: 5px 5px auto 100px;"></i>
+                    <div style="display: inline-block;position: relative;bottom: 8px;padding: 4px;color: white;">
+                        Monday - Sundays<br/> 11 AM - 7 PM</div>
+                </div>
+            </div>
+            <div class="topItem">
+                <div style="display:inline-block; vertical-align:top;">
+                    <i class="fa-solid fa-mobile-screen" style="font-size:55px; color: orangered;margin: 5px 2px;"></i>
+                    <div style="display: inline-block;position: relative;bottom: 8px;padding: 4px;color: white;">
+                        +91 8123456789<br />consult@DrClone.com</div>
+                </div>
+            </div>
+            <div class="topItem">
+                <div style="display:inline-block; vertical-align:top;">
+                    <i class="fa-solid fa-location-dot" style="font-size:55px;color: orangered;margin: 5px 2px;"></i>
+                    <div style="display: inline-block;padding: 4px;position: relative; bottom: 8px ; color: white;">
+                        B-214, B Tower ithum<br />Sector - 62, Noida, UP, INDIA</div>
+                </div>
+            </div>
+            </div>
+            <div class="flex barLinks">
+            <a href="http://127.0.0.1:5500/Project1/DrClone.html" class="second topLink">
+                <h3 class="r2l">HOME</h3>
+            </a>
+            <a href="http://127.0.0.1:5500/Project1/treatment.html" class="second topLink">
+                <h3 class="r2l">TREATMENTS</h3>
+            </a>
+            <a href="http://127.0.0.1:5500/Project1/Policy.html" class="second topLink">
+                <h3 class="r2l">CONFIDENTIALITY POLICY</h3>
+            </a>
+            <a href="http://127.0.0.1:5500/Project1/FAQ.html" class="second topLink" style="  padding: 0 0 20px 0 ;border-bottom: 4px solid aqua">
+                <h3 class="">FAQ</h3>
+            </a>
+            <a href="http://127.0.0.1:5500/Project1/ContactUs.html" class="second topLink">
+                <h3 class="r3l">CONTACT US</h3>
+            </a>
+            </div>
+        </div>
+
+        <div id="navbar">
+                <div class="flex">
+                <div >
+                    <a href="http://127.0.0.1:5500/Project1/DrClone.html"><img id="logo"src="./logo-removebg-preview.png" alt="Clone"></a>
+                </div>
+                <div class="rem">
+                    <div  style="display:inline-block; vertical-align:middle;">                
+                        <i class="fa-regular fa-clock" style="font-size:55px; color: red; margin: 5px 5px auto 100px;"></i>
+                        <div style="display: inline-block;position: relative;bottom: 8px;padding: 4px;color: white;">
+                            Monday - Sundays<br/> 11 AM - 7 PM</div>
+                    </div>
+                </div>
+                <div  class="rem">
+                    <div style="display:inline-block; vertical-align:top;">
+                        <i class="fa-solid fa-mobile-screen" style="font-size:55px; color: red;margin: 5px 2px;"></i>
+                        <div style="display: inline-block;position: relative;bottom: 8px;padding: 4px;color: white;">
+                            +91 8123456789<br />consult@DrClone.com</div>
+                    </div>
+                </div>
+                <div class="rem">
+                    <div style="display:inline-block; vertical-align:top;">
+                        <i class="fa-solid fa-location-dot" style="font-size:55px;color: red; margin: 5px 2px;"></i>
+                        <div style="display: inline-block;padding: 4px;position: relative; bottom: 8px ; color: white;">
+                            B-214, B Tower ithum<br />Sector - 62, Noida, UP, INDIA</div>
+                    </div>
+                </div>
+                </div>
+                <hr>
+                <div class="flex" >
+                <a href="http://127.0.0.1:5500/Project1/DrClone.html" class="second">
+                    <h3>HOME</h3>
+                </a>
+                <a href="http://127.0.0.1:5500/Project1/treatment.html" class="second">
+                    <h3>TREATMENTS</h3>
+                </a>
+                <a href="http://127.0.0.1:5500/Project1/Policy.html" class="second">
+                    <h3>CONFIDENTIALITY POLICY</h3>
+                </a>
+                <a href="http://127.0.0.1:5500/Project1/FAQ.html" class="second" style=" position: relative; right:8% ; padding: 0 0 10px 0 ;border-bottom: 4px solid aqua">
+                    <h3>FAQ</h3>
+                </a>
+                <a href="http://127.0.0.1:5500/Project1/ContactUs.html" class="second">
+                    <h3>CONTACT US</h3>
+                </a>
+                </div>
+        </div>
+
+       <div class="flex"  id="p7">
+            <div class="r2l cenf"><br>
+                <b style="color: white; font-size: 40px; ">Frequently Asked<br/> Questions</b>
+                <p><hr style=" width: 1.5cm; border-bottom: 2px solid red;"></p><br>                       
+            </div>                   
+       </div>
+
+       <div class="flex reveal" id="p2">
+         <div style="text-align: left;position: relative;right: 21%;"> <br>
+            <br><br><p style="font-size: 20px">Knowledge is the path to success</p><br>
+            <p style="font-size: 60px;font-weight: 900; line-height: 70px; ">Usual questions</p><p style="color: orangered ;line-height: 60px;;font-size: 60px;font-weight: 900;">from our patients</p>                        
+            <br><br>
+         </div>         
+       </div>  
+       <div class="flex" id="p2">
+            <div><br><br>
+                <img src="./img.jpeg" alt="God" style=" position: relative; height: 600px; width: 1000px;">
+                <!-- kjebfkjbaEFJBAKJBN -->                
+            </div>
+            <div style="width: 80%;"><br><br>
+               
+                <p>Q1. <b> What are the physical, mental and emotional aspects of homeopathy? </b> </p>
+                <p class="ans r3"><b>ANS.&nbsp;&nbsp;</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem labore illum quis? Magni quam doloremque tempore illo vero eos, sed reiciendis debitis rerum neque perferendis, quidem cumque? Nihil veniam, nemo praesentium porro hic consectetur saepe dolores, quam quaerat asperiores, doloribus nobis animi corporis reprehenderit dolorum doloremque cumque obcaecati quo sit.</p>
+                <br>
+                <p>Q2. <b> What are the three levels of homeopathic therapy? </b></p>
+                <p class="ans r2"><b>ANS.&nbsp;&nbsp;</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem labore illum quis? Magni quam doloremque tempore illo vero eos, sed reiciendis debitis rerum neque perferendis, quidem cumque? Nihil veniam, nemo praesentium porro hic consectetur saepe dolores, quam quaerat asperiores, doloribus nobis animi corporis reprehenderit dolorum doloremque cumque obcaecati quo sit.</p>
+                <br>
+                <p>Q3. <b> What is the relationship between symptoms and homeopathy? </b></p>
+                <p class="ans r3"><b>ANS.&nbsp;&nbsp;</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem labore illum quis? Magni quam doloremque tempore illo vero eos, sed reiciendis debitis rerum neque perferendis, quidem cumque? Nihil veniam, nemo praesentium porro hic consectetur saepe dolores, quam quaerat asperiores, doloribus nobis animi corporis reprehenderit dolorum doloremque cumque obcaecati quo sit.</p>
+                <br>
+                <p>Q4. <b> Can such small doses be effective? </b></p>
+                <p class="ans r2"><b>ANS.&nbsp;&nbsp;</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem labore illum quis? Magni quam doloremque tempore illo vero eos, sed reiciendis debitis rerum neque perferendis, quidem cumque? Nihil veniam, nemo praesentium porro hic consectetur saepe dolores, quam quaerat asperiores, doloribus nobis animi corporis reprehenderit dolorum doloremque cumque obcaecati quo sit.</p>
+                <br>
+                <p>Q5. <b> How can the correct homeopathic remedy be found? </b></p>
+                <p class="ans r3"><b>ANS.&nbsp;&nbsp;</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem labore illum quis? Magni quam doloremque tempore illo vero eos, sed reiciendis debitis rerum neque perferendis, quidem cumque? Nihil veniam, nemo praesentium porro hic consectetur saepe dolores, quam quaerat asperiores, doloribus nobis animi corporis reprehenderit dolorum doloremque cumque obcaecati quo sit.</p>
+                <br>
+                <p>Q6. <b> What is the difference between homeopathy and conventional medicine? </b></p>
+                <p class="ans r2"><b>ANS.&nbsp;&nbsp;</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem labore illum quis? Magni quam doloremque tempore illo vero eos, sed reiciendis debitis rerum neque perferendis, quidem cumque? Nihil veniam, nemo praesentium porro hic consectetur saepe dolores, quam quaerat asperiores, doloribus nobis animi corporis reprehenderit dolorum doloremque cumque obcaecati quo sit.</p>
+                <br>
+                <p>Q7. <b> What is the patient’s role? </b></p>
+                <p class="ans r3"><b>ANS.&nbsp;&nbsp;</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem labore illum quis? Magni quam doloremque tempore illo vero eos, sed reiciendis debitis rerum neque perferendis, quidem cumque? Nihil veniam, nemo praesentium porro hic consectetur saepe dolores, quam quaerat asperiores, doloribus nobis animi corporis reprehenderit dolorum doloremque cumque obcaecati quo sit.</p>
+            <br><br><br>
+            </div>
+            
+       </div>  
+       
+        <div class="part" id="p5">
+            <div class="flex">
+                <p>&reg; DR.Clone </p>
+            </div>        
+        </div>
+
+        <div class="part" id="p6">
+            <br>
+            <div class="flex">
+                <div>
+                    <p><a href="#"><img id="box" src="logo-removebg-preview.png" alt=""></a></p>
+                    <br><hr>
+                    <h2 style="color: white">Contact Us</h2>
+                    <hr style="border-bottom:3px solid orangered ;border-radius: 5px; width:1cm;color:white;position:  relative;left:15% ">
+                    <br>
+                    <p style="font-size: 14px; color: white;">Working Hours:<br /> Monday – Sundays 11 AM – 7
+                        PM<br />
+                        Mobile: +91 81234567789<br />
+                        Email : consult@DrClone.com<br />
+                        <br>
+                        B-214, B Tower ithum<br />
+                        Sector - 62, Noida, UP, INDIA
+                    </p>
+                </div>
+            </div><br>                
+        </div>
+            <div style="background-color: black; height: fit-content;" class="fles">
+                <p style="display: inline-block; text-align: left; font-size: 12px ; color: white;">@ All rights
+                    reserved. Dr CLONEEE MediCare Homeopathy Services</p>
+                <a href="#" class="in" style="margin: 0px 10px 0 35%">
+                    <h3>Home</h3>
+                </a>
+                <a href="#" class="in">
+                    <h3>Treatments</h3>
+                </a>
+                <a href="#" class="in">
+                    <h3>Confidentiality Policcy</h3>
+                </a>
+                <a href="#" class="in">
+                    <h3>Faq</h3>
+                </a>
+                <a href="#" class="in">
+                    <h3>CONTACT US</h3>
+                </a>
+            </div>
+            <!-- <br><br><br><br><br><br>
+        <p name="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit perspiciatis ratione amet laboriosam ex quos qui eos, provident inventore tenetur fuga voluptas rem nostrum obcaecati consequuntur! Nemo a voluptatum vel saepe. Nostrum et laboriosam corrupti, a explicabo sapiente numquam aliquam at corporis facilis ipsa! Quibusdam odio officia reprehenderit facere mollitia quasi iste at sint deserunt, officiis excepturi, illum ipsam aperiam inventore. Perferendis atque incidunt a nostrum, ab quisquam dolore aperiam facere non modi sed ipsum libero ex alias illum praesentium deleniti explicabo eos reprehenderit doloremque cum debitis. Nostrum maiores excepturi molestiae porro aspernatur vitae laudantium voluptas unde. Odit, fugit. Aliquam!</p> -->
+</body>
+    <script src="./MainJS.js"></script>
+</html>
